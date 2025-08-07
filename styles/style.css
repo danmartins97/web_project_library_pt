@@ -90,7 +90,7 @@
 
 .staff {
   background-image: url(/images/staff_picks_background.jpg);
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0 140px;
 }
@@ -117,12 +117,12 @@
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
   max-width: 760px;
-  margin: auto;
   list-style-type: none;
-  padding-left: 0%;
+  padding: 0;
+  margin: 68px auto 0;
 }
 
 .card {
